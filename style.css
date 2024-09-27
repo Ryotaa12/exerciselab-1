@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(pattern.jpeg.jpg);
+  font-family:Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.jadesoii-container {
+  width: 90%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: gray;
+}
+
+.jadesoii-header {
+  background-color: greenyellow;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.jadesoii-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.ryotaa-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ryotaa-picture {
+  margin-bottom: 20px;
+}
+
+.ryotaa-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid greenyellow;
+}
+
+.details {
+  text-align: center;
+}
+
+.details h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: bold;
+  text-shadow: 4px 4px 4px #000000;
+  color: white;
+}
+
+.details p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: bold;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.details p strong {
+  display: block;
+  color: greenyellow;
+}
+
